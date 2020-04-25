@@ -18,7 +18,8 @@ myxml.onreadystatechange= function(){
 		 live=all-(okay+dead);
 		
 		document.getElementById("header2").innerHTML="Total Cases(India)="+all;
-		
+		document.getElementById('states').selectedIndex=0;
+		document.getElementById("extra").style.display="flex";
 		}
 		else{
 			
