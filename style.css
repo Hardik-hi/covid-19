@@ -102,13 +102,13 @@ html {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   /*padding: 2vw;*/
 }
 .col {
   /*flex: 50%;*/
-  height: 60vh;
-  width: 60vh;
+  height: 360px;
+  width: 360px;
   margin: 25px;
   /*padding: 2vw;*/
 }
@@ -160,5 +160,11 @@ html {
   .col {
     height: 50vh;
     width: 60vw;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .col {
+    height: 300px;
+    width: 300px;
   }
 }
