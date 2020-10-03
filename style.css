@@ -15,6 +15,7 @@ html {
   z-index: 999;
 }
 #child {
+  text-align: center;
   color: white;
   font-size: 2.8rem;
   width: 95%;
@@ -52,6 +53,7 @@ html {
   background-color: #0d0c0a;
   color: #b8b8b8;
   padding: 40px 50px;
+  margin-top: 20px;
 }
 #lowest div {
   font-size: 1.6rem;
@@ -99,13 +101,16 @@ html {
 }
 .row {
   display: flex;
-  padding: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*padding: 2vw;*/
 }
 .col {
-  flex: 50%;
+  /*flex: 50%;*/
   height: 60vh;
-  padding: 2vw;
-  text-align: center;
+  width: 60vh;
+  margin: 25px;
+  /*padding: 2vw;*/
 }
 @media only screen and (max-width: 768px) {
   #lowest {

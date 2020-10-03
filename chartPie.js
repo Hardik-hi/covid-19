@@ -13,8 +13,9 @@ function makepie(x, y, can, title) {
       datasets: [
         {
           data: y,
-          backgroundColor: ["green", "orange", "red"],
-          borderColor: ["green", "orange", "red"],
+          backgroundColor: ["#90EE90", "#e420208f", "#ffa368"],
+          borderColor: ["#29ab87", "#cd5c5c", "#FF6700"],
+          borderWidth: 1
         },
       ],
     },

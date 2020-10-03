@@ -12,7 +12,8 @@ function newchart(x, y) {
           data: y,
           label: "CASES IN INDIA",
           backgroundColor: "#e420208f",
-          borderColor: "red",
+          borderColor: "#cd5c5c",
+          borderWidth: 1
         },
       ],
     },

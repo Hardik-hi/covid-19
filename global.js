@@ -13,8 +13,8 @@ function global_data1() {
           {
             data: y,
             label: "COVID-19 Cases",
-            backgroundColor: "brown",
-            borderColor: "green",
+            backgroundColor: "#e420208f",
+            borderColor: "#cd5c5c",
           },
         ],
       },
