@@ -12,4 +12,12 @@ Features:
  
  NOTE: Data is fetched from Third Party APIs which are as follows:
  
+ - https://coronavirus-19-api.herokuapp.com/all
+ - https://api.rootnet.in/covid19-in/stats/latest
+ - https://api.covid19india.org/data.json
+ - https://coronavirus-tracker-api.herokuapp.com/v2/locations
+ 
  </p>
+
+| ![Alt Text](https://github.com/Hardik-hi/covid-19/blob/master/covid19stats.gif) |
+| ------ |
